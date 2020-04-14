@@ -1,9 +1,130 @@
 # Change Log
 
-All notable changes to this project will be documented in this file following the style described at [Keep a Changelog](http://keepachangelog.com) by [@olivierlacan](https://github.com/olivierlacan). 
+All notable changes to this project will be documented in this file following the style described at [Keep a Changelog](http://keepachangelog.com) by [@olivierlacan](https://github.com/olivierlacan).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ----
+<br/>
+
+## 1.9.0 (2020-03-30)
+
+##### Fixed
+- More cryptographically secure random text generator by [@skreutzberger](https://github.com/skreutzberger)
+
+##### Removed
+- Support for Swift 3 by [@skreutzberger](https://github.com/skreutzberger)
+
+<br/>
+
+## 1.8.4 (2019-12-06)
+
+##### Added
+- Enabled "Allow app extension API only" flag by [@FelixII](https://github.com/FelixII)
+- Support for older Swift version with Cocoapods by [@RomanPodymov](https://github.com/RomanPodymov)
+- Support for colors in FileDestination by [@FabioTacke](https://github.com/FabioTacke)
+- More human-readable thread names by [@robowen5mac](https://github.com/robowen5mac)
+
+<br/>
+
+## 1.8.3 (2019-10-23)
+
+##### Added
+- Support for older OS versions via SPM by [@OlexandrStepanov](https://github.com/OlexandrStepanov)
+
+##### Fixed
+- Support for latest server-side Swift by [@JRHeaton](https://github.com/JRHeaton)
+
+<br/>
+
+## 1.8.2 (2019-10-02)
+
+##### Fixed
+- Key value in `info.plist` by [@Sidetalker](https://github.com/Sidetalker)
+
+<br/>
+
+## 1.8.1 (2019-09-30)
+
+##### Fixed
+- Added missing key to `info.plist` by [@lgaches](https://github.com/lgaches)
+
+<br/>
+
+## 1.8.0 (2019-09-27)
+
+##### Added
+- Support for Xcode 11 and iOS 13 by [@lgaches](https://github.com/lgaches)
+
+<br/>
+
+## 1.7.1 (2019-08-22)
+
+##### Added
+- Improved file destination by [@CognitiveDisson](https://github.com/CognitiveDisson)
+- Improved README by [@skreutzberger](https://github.com/skreutzberger)
+- All build targets can use Swift 5 by [@DivineDominion](https://github.com/DivineDominion)
+
+
+##### Fixed
+- Issue in BaseDestination with non-required filters by [@FelixII ](https://github.com/FelixII)
+
+
+<br/>
+
+## 1.7.0 (2019-03-26)
+
+##### Added
+
+- Support for Swift 5 and Xcode 10.2 by [@lgaches](https://github.com/lgaches)
+- Support for CircleCI 2.0 by [@lgaches](https://github.com/lgaches)
+
+
+<br/>
+
+## 1.6.2 (2019-02-11)
+
+##### Added
+
+- Improved SPM support for Swift 4.2 by [@heyzooi ](https://github.com/heyzooi)
+- Improved Carthage support for Swift 4.2 by [@iachievedit ](https://github.com/iachievedit)
+- Swift type inference by [@rafalmq ](https://github.com/rafalmq)
+
+
+<br/>
+
+## 1.6.1 (2018-09-18)
+
+##### Added
+
+- Optional sync after each file write by [@crspybits ](https://github.com/crspybits)
+- Execute methods to run in dest queue by [@keeshux ](https://github.com/keeshux)
+- Padded format option (see [PR for details](https://github.com/SwiftyBeaver/SwiftyBeaver/pull/298)) by [@htb ](https://github.com/htb)
+
+
+##### Fixed
+- Warning caused by iOS 12 by [@lgaches](https://github.com/lgaches)
+- Issues with formating by [@htb ](https://github.com/htb)
+
+<br/>
+
+## 1.6.0 (2018-05-23)
+
+##### Added
+
+- Custom filters by [@Mordil ](https://github.com/Mordil )
+- App uptime format variable `$U` by [@LordNali ](https://github.com/LordNali )
+
+##### Changed
+- Filter behavior which requires now at least one passing non-required filter by [@cconway](https://github.com/cconway)
+
+<br/>
+
+## 1.5.2 (2018-04-05)
+
+##### Added
+
+- Support for Xcode 9.3 and Swift 4.1 by [@jimmya](https://github.com/jimmya)
+
 <br/>
 
 ## 1.5.1 (2018-01-05)
